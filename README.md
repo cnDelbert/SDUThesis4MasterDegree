@@ -1,4 +1,4 @@
-# Shandong University Thesis Template for Master Degree \LaTeX Edition
+# Shandong University Thesis Template for Master Degree (LaTeX Edition)
 
 ## Requirement
 
@@ -15,6 +15,16 @@ After CTeX installed, you can update the MiKTeX from `Start Menu` - `Programs` -
 - `run.bat` Compile the script and clean
 - `run_open.bat` Clean, compile and open the `.pdf` file
 - `clean.bat` Clean the project
+
+## Structure
+
+- `SDUThesis.tex` main file.
+- `SDUThesis-cover.def` Cover for Special Master Degree.
+- `SDUThesis-cover-SciMaster.def` Cover for Science Master Degree.(Replace the `SDUThesis-cover.def` if you are a Science Master.)
+- `SDUThesis-statement.def` Statement for your thesis.
+- `config/` Modify the files to suit your own.
+- `contents/` The body of your thesis should be here.
+- `figures/` Figures in your thesis should be placed here. `.jpg/.eps/.pdf` formats are accepted. The script would find figures by name from this directory.
 
 ## Features
 
